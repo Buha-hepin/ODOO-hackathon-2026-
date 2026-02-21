@@ -16,7 +16,7 @@ import {
    🔐 ROLE CONFIG (TEMP)
    In real app → comes from AuthContext / JWT
 ====================================================== */
-const USER_ROLE = "FINANCE";
+const USER_ROLE = "FLEET_MANAGER";
 // "FLEET_MANAGER" | "DISPATCHER" | "SAFETY_OFFICER" | "FINANCE"
 
 /* ======================================================

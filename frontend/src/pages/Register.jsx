@@ -78,7 +78,7 @@ const Register = () => {
     <div className="min-h-screen bg-purple-50 flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-4xl bg-white shadow-xl rounded-2xl p-8">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-purple-700">Create Account in Fleet Management</h2>
+          <h2 className="text-3xl font-bold text-purple-700">Create Account in Fleet-Flow</h2>
           <p className="text-gray-500 mt-2">Select your role and register to continue</p>
         </div>
 

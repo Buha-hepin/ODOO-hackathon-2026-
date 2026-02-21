@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
    🔐 ROLE CONFIG (TEMP)
    In real app → AuthContext / JWT
 ====================================================== */
-const USER_ROLE = "SAFETY_OFFICER";
+const USER_ROLE = "FLEET_MANAGER";
 // "FLEET_MANAGER" | "DISPATCHER" | "SAFETY_OFFICER" | "FINANCE"
 
 /* ======================================================
