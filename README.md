@@ -14,6 +14,70 @@ Safety Officers – Driver compliance, license expiry, and safety monitoring
 
 Financial Analysts – Fuel costs, maintenance ROI, and operational audits
 
+project structure
+
+ODOO/
+│
+├── Fleet-Flow/                    # Backend (Node.js + Express)
+│   ├── .vscode/                   # VS Code workspace settings
+│   ├── all setup/                 # Initial setup / configuration files
+│   ├── node_modules/              # Backend dependencies
+│   ├── public/                    # Static files (if any)
+│   ├── src/
+│   │   ├── controllers/           # Route controllers (business logic)
+│   │   │   └── user.controller.js
+│   │   │
+│   │   ├── db/                    # Database connection & configs
+│   │   │
+│   │   ├── middlewares/           # Custom Express middlewares
+│   │   │
+│   │   ├── models/                # Database models / schemas
+│   │   │   └── user.model.js
+│   │   │
+│   │   ├── routes/                # API route definitions
+│   │   │   └── user.routes.js
+│   │   │
+│   │   ├── utils/                 # Utility/helper functions
+│   │   │   ├── apierror.js
+│   │   │   ├── apiResponse.js
+│   │   │   ├── asyncHandler.js
+│   │   │   ├── app.js
+│   │   │   ├── constants.js
+│   │   │   └── index.js
+│   │
+│   ├── .env                       # Environment variables
+│   ├── .gitignore
+│   ├── package-lock.json
+│   └── package.json
+│
+├── frontend/                      # Frontend (React + Vite + Tailwind)
+│   ├── node_modules/              # Frontend dependencies
+│   ├── public/                    # Static assets
+│   ├── src/
+│   │   ├── assets/                # Images, icons, etc.
+│   │   │
+│   │   ├── pages/                 # Application pages / modules
+│   │   │   ├── Analytics.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── ExpenseAndFuelLogging.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Maintenance.jsx
+│   │   │   ├── Performance.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── TripDispatcher.jsx
+│   │   │   └── VehicleRegistry.jsx
+│   │   │
+│   │   ├── App.css                # Global styles
+│   │   ├── App.jsx                # Root React component
+│   │   ├── index.css              # Tailwind base styles
+│   │   └── main.jsx               # React entry point
+│   │
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   └── index.html
+│
+└── README.md                      # Project documentation
+
 🧩 Core System Modules
 1️⃣ Login & Authentication
 
